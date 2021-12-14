@@ -7,33 +7,38 @@
     <body>
         <main>
             <h1>JIM's Raffle</h1>
-            <section class="Headerblock">
-                <h2>Feeling Lucky? Get Rich Today!</h2>
+            <h4>Jonathan &emsp;Inosa &emsp;Matt</h4>
+            <section class="headerblock">
+                <img src="./images/last chance.gif">
                 <h3>You can't win if you don't play.</h3>
             </section>
             <section class="pagebody">
                     <section class="enter">
-                        <h2 class="counts">Raffle Size</h2>
-                        <form action="/">
+                        <section class="money">
+                            <h2 class="counts"># of Entries: </h2>
+                            <h3>0</h3>
+                        </section>
+                        <form action="../public/index.html">
                             <h2>Join for $5 a ticket!</h2>
                             <label for="fname">First name:</label>
                             <input type="text" id="fname" name="fname"><br><br>
                             <label for="lname">Last name:</label>
                             <input type="text" id="lname" name="lname"><br><br>
-                            <label for="amount">Number of Tickets:</label>
+                            <label for="amount"># of Tickets:</label>
                             <input type="number" id="amount" name="amount"><br><br>
-                            <input type="submit" value="Join Raffle">
-                            <img src="./images/join-the-party-join-us.gif"/>
+                            <label for="total">Total: $</label>
+                            <output type="number" id="total" name="total">0</output><br><br>
+                            <input type="submit" class="submit" value="Join Raffle">
                         </form>
                     </section>
                     <section class="graphics">
-                        <img src="./images/Cash.gif"/>
-                        <img src="./images/Excited people..webp"/>
+                        <img src="./images/bag.png">
+                        <button>Top</button>
                     </section>
                     <section class="amount">
-                        <h2 class="counts">Current<br>Amount</h2>
-                        <img src="./images/bag.png"/>
-                        <img src="./images/car.jpeg"/>
+                        <h2 class="counts">Current<br>Amount:</h2>
+                        <h3 class="caption">$0</h3>
+                        <button>Pick Winner</button>
                     </section>
             </section>
         </main>
